@@ -136,8 +136,8 @@ export default defineConfig({
   openAPI: [
     {
       requestLibPath: "import { request } from '@umijs/max'",
-      schemaPath: 'http://localhost:8101/api//v2/api-docs',
-      projectName: 'memory-api',
+      schemaPath: 'http://localhost:8084/api/v2/api-docs?group=壁纸分享',
+      projectName: 'pic-memories',
     },
   ],
   mfsu: {

@@ -66,19 +66,19 @@ export default [
   //用户信息页
   {
     name: '用户信息',
-    access: 'canAdmin',
     icon: 'user',
     path: '/user/list',
     component: './TableList/User',
   },
 
-  //接口信息页
+  //壁纸信息页
   {
-    name: '接口信息',
+    name: '壁纸信息',
     icon: 'user',
-    path: '/interfaceInfo/list',
-    component: './TableList/InterfaceInfo',
+    path: '/wallpaper/list',
+    component: './TableList/Wallpaper',
   },
+  //上传页
 
   {
     path: '/',
